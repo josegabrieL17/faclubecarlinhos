@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Contato</title>
+    <link rel="stylesheet" href="contato.css">
+  <div class="banner2">
+    <nav>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="sobre.html">sobre o carlinhos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="fans.html">veja os seguidores dele aqui</a></li>
+      </ul>
+    </nav>
+  </div>
+    <style>
+      body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+    </style>
+</head>
+<body>
+  <div class="banner2">
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="home.html">
+              <img src="iconsimagens/casa.png" width="35" height="35" alt="">
+              <span>Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="sobre.html">
+              <img src="iconsimagens/botao-de-informacao.png" width="35" height="35" alt="">
+              <span>Sobre o Carlinhos</span>
+            </a>
+          </li>
+          <li>
+            <a href="contato.html">
+              <img src="iconsimagens/envelope.png" width="35" height="35" alt="">
+              <span>Contato</span>
+            </a>
+          </li>
+          <li>
+            <a href="fans.html">
+              <img src="iconsimagens/segue.png" width="35" height="35" alt="">
+              <span>seguidores aqui</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+
+  
+  <div class="container">
+    <h1>Entre em Contato</h1>
+    
+    <form action="enviar.php" method="POST">
+      <div class="form-group">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" placeholder="Seu nome">
+      </div>
+      
+      <div class="form-group">
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" name="email" placeholder="Seu e-mail">
+      </div>
+      
+      <div class="form-group">
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" placeholder="Digite sua mensagem"></textarea>
+      </div>
+      
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+</body>
+</html>
