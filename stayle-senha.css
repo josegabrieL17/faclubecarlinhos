@@ -1,14 +1,20 @@
 /* Estilos para o corpo da página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #8b7f7f;
+    /* Adicione a imagem de fundo e configure seu estilo */
+    background-image: url('tristeza.jpg'); /* imagem de fundo*/
+    background-size: cover; /* ou 'contain', dependendo do efeito desejado */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Opcional: para fixar a imagem de fundo */
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    /* Mantenha as outras propriedades de estilo conforme você desejar */
 }
+
 
 /* Estilos para o formulário de senha */
 #password-form {
@@ -58,3 +64,7 @@ input[type="password"] {
     font-size: 14px;
     margin-top: 5px;
 }
+p{
+    color: rgb(144, 0, 0);
+}
+

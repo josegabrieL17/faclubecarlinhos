@@ -12,6 +12,17 @@ body{
 
 }
 */
+
+h2,h1{
+    text-align: center;
+    color: white;
+}
+.aaa{
+    color: aqua;
+    text-align: center;
+    font-size: 25px;
+}
+
 .imagem1,
 .imagem2,
 .imagem3 {
@@ -38,3 +49,45 @@ body{
 .centro{
     text-align: center;
 }
+
+/*variantes do carlinhos*/
+.variantes-posicao{
+    text-align: center;
+}
+
+.imagem4,
+.imagem5,
+.imagem6,
+.imagem7,
+.imagem8,
+.imagem9,
+.imagem10,
+.imagem11,
+.imagem12 {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    border: 3px solid black; 
+    /* Adicione margem para separar as figuras */
+}
+
+.imagem4 figcaption, 
+.imagem5 figcaption,
+.imagem6 figcaption,
+.imagem7 figcaption,
+.imagem8 figcaption,
+.imagem9 figcaption,
+.imagem10 figcaption,
+.imagem11 figcaption,
+.imagem12 figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-weight: bold;
+    border: 3px solid black;
+}
+
